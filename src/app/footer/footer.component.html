@@ -1,0 +1,160 @@
+<section id="footer" #main>
+  <h6 class="text-center head" style="color: lightgray;" #head>FAST SUPPORT</h6>
+  <h3 class="text-center head2" style="margin-bottom: 5vh;" #head2>
+    GET IN TOUCH
+  </h3>
+  <div class="iconnform" #bob>
+    <div class="icon">
+      <img src="/assets/biglogo.png" alt="logo" />
+    </div>
+    <div class="form">
+      <form #form="ngForm" autocomplete="off" (submit)="submit(form)">
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-cotrol"
+            name="name"
+            #name="ngModel"
+            [(ngModel)]="ctrl.userData.name"
+            placeholder="Name"
+            required
+          />
+          <br />
+          <input
+            type="email"
+            class="form-cntrol"
+            name="email"
+            #email="ngModel"
+            [(ngModel)]="ctrl.userData.email"
+            placeholder="Email"
+            required
+          />
+          <input
+            type="text"
+            class="form-corntrol"
+            name="subject"
+            #subject="ngModel"
+            [(ngModel)]="ctrl.userData.subject"
+            placeholder="Subject"
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="2"
+            name="message"
+            messaget="ngModel"
+            [(ngModel)]="ctrl.userData.message"
+            placeholder="Message"
+            required
+          ></textarea>
+        </div>
+
+        <div>
+          <input type="submit" value="SUBMIT" [disabled]="form.invalid" />
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="layer">
+    <div class="set" #set>
+      <ul>
+        <li><a href="https://www.linkedin.com/company/emicon-advisory-services-llp"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://www.facebook.com/emiconconsulting/"><i class="fa fa-facebook-f"></i></a></li>
+        <li><a href="https://www.instagram.com/emicon_advisory_services_llp/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCVJPf-fDCHEhmQbgsmKa_0A"><i class="fa fa-youtube-play"></i></a></li>
+      </ul>
+    </div>
+    <div class="set2" #set2>
+      <ul>
+        <li><a href="https://www.linkedin.com/company/emicon-advisory-services-llp"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://www.facebook.com/emiconconsulting/"><i class="fa fa-facebook-f"></i></a></li>
+        <li><a href="https://www.instagram.com/emicon_advisory_services_llp/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCVJPf-fDCHEhmQbgsmKa_0A"><i class="fa fa-youtube-play"></i></a></li>
+      </ul>
+    </div>
+    <div class="line" #line>
+      <hr />
+    </div>
+    <div class="cp" #cp>
+      <p>Copyright 2020. All Rights Reserved</p>
+    </div>
+    <div class="box">
+      <div class="b1" #b1>
+        <div class="hox text" #hox>
+          <h3>Our Locations</h3>
+        </div>
+        <div class="space"></div>
+        <div class="b11">
+          <br />
+          <i
+            class="fa fa-map-marker fa-2x"
+            aria-hidden="true"
+            style="color: orange;"
+          ></i
+          ><span style="font-size: 1.6rem;"> Emicon Mohali </span> <br />D-268,
+          Industrial Area, Sector 74, <br />
+          Ajit Singh Nagar, <br />
+          Punjab 160055
+        </div>
+        <div class="b12">
+          <br />
+          <i
+            class="fa fa-map-marker fa-2x"
+            aria-hidden="true"
+            style="color: orange;"
+          ></i
+          ><span style="font-size: 1.6rem;"> Emicon Pune </span> <br />1st
+          Floor, Malhar, NDA Pashan Road, Chandani Chonk, Bavdhan, Pune
+          <br />Maharashtra 411021
+        </div>
+      </div>
+      <div class="space"></div>
+      <div class="b2" #b2>
+        <div class="hox" #hox2>
+          <h3>Quick Links</h3>
+        </div>
+        <div class="b211">
+          <ul>
+            <li routerLink="/about" style="cursor: pointer;">About Us</li>
+            <li routerLink="/solution" style="cursor: pointer;">Solution</li>
+            <li routerLink="/career" style="cursor: pointer;">Career</li>
+            <li routerLink="/contact" style="cursor: pointer;">Contact</li>
+          </ul>
+        </div>
+        <div class="b222">
+          <ul>
+            <li routerLink="/oracle-services" style="cursor: pointer;">
+              Oracle Services
+            </li>
+            <li
+              routerLink="/analytics-and-data-visualization"
+              style="cursor: pointer;"
+            >
+              Data Analysis
+            </li>
+            <li routerLink="/digital-marketing" style="cursor: pointer;">
+              Digital Marketing
+            </li>
+            <li routerLink="/about" style="cursor: pointer;">Training</li>
+          </ul>
+        </div>
+        <div class="b233">
+          <ul>
+            <li routerLink="/animation-services" style="cursor: pointer;">
+              Animation
+            </li>
+            <li routerLink="/web-development" style="cursor: pointer;">
+              Web Application
+            </li>
+            <li routerLink="/app-development" style="cursor: pointer;">
+              Mobile Application
+            </li>
+            <li>&nbsp;</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

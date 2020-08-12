@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Quicksand&display=swap');
+.ma{
+  background-color: white;
+   margin-top: 70px;
+    padding: 50px;
+}
+.box{
+  padding: 50px;
+  background-color: whitesmoke;
+}
+.subhead{
+  text-align: center;
+  color: orange;
+  font-family: 'Quicksand', sans-serif;
+}
+.head{
+  text-align: center;
+  color: orange;
+  margin-bottom: 50px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+.cont{
+  color: white;
+}
+nav a h6{
+  color: gray;
+}
+nav a p{
+  color: grey;
+}
+nav a{
+  width: 100%;
+}
+nav a:hover{
+  background-color: orange;
+  border-radius: 5px;
+  color: white;
+}
+nav a:focus{
+  background-color: orange;
+  border-radius: 5px;
+  color: white;
+  h6,p{
+    color: white;
+  }
+}
+nav a:hover{
+  h6,p{
+    color: white;
+  }
+}
+.btn{
+  border: 1px solid white;
+  color: white;
+  border-radius: 0px;
+  margin-top: 20px;
+  transition: all 1s;
+}
+.btn:hover{
+  background-color: white;
+  color: #05487F;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeIn {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+}
+@keyframes fadeIn {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+}
+.fadeIn {
+ -webkit-animation-name: fadeIn;
+ animation-name: fadeIn;
+}
+@media only screen and (max-width: 1024px) {
+  .kp{
+    margin-top: 130px;
+  }
+  .box1{
+    background-color: white;
+    margin-bottom: 0px;
+  }
+   }
+   @media only screen and (max-width: 764px) {
+    .kp{
+      margin-top: 30px;
+    }
+    .ma{
+      padding: 1px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      border-radius: 2px;
+    }
+     }
+     @media only screen and (max-width: 768px){
+      .box{
+        padding: 3px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+      .bold{
+        text-align: center;
+      }
+     }
+.box1 h2{
+  color: white;
+  background-color: orange;
+  padding: 5px;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+.box1 p{
+  padding: 5px;
+  font-weight: 600;
+  color: grey;
+}
+.box1 li{
+  font-weight: 500;
+  color: grey;
+}
+.icon{
+  position: absolute;
+   top: -11px;
+   right: -5px;
+   color: orange;
+   cursor: pointer;
+}
+.bold{
+  font-weight: 900;
+}

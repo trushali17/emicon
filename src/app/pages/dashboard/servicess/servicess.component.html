@@ -1,0 +1,127 @@
+<div class="container-fluid box" style="margin-top: 100px; ">
+  <div class="container">
+  <h4 class="subhead">OUR AWESOME PROJECTS</h4>
+  <h1 class="head">DELIVERING SERVICES FOR SUCCESS</h1>
+  <!-- <h6 class="cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore earum culpa, corrupti cumque magni accusamus perspiciatis
+    similique qui sint voluptatum possimus deserunt enim, blanditiis saepe quia ratione tempora, ducimus dolore?</h6> -->
+  <div class="row ma">
+    <div class="col-md-5 col-sm-12 col-xs-12 ">
+      <nav id="sw-nav-shadow" class="nav flex-md-column  nav-fill nav-pills-dark">
+        <a
+          href="javascript:;" *ngFor="let element of elements; let i = index" class="nav-item text-left nav-link py-3 my-2"
+          [class.active]="i === currentSlide"
+          (click)="updateSlider(i+1)"
+          [attr.data-step]="i +1"
+        >
+          <h6 class="bold">{{ element.title }}</h6>
+          <!-- <p class="my-0 d-none d-md-block" style=" font-weight: 200;">{{ element.description }}</p> -->
+        </a>
+      </nav>
+    </div>
+    <div class="col-md-7 col-sm-12 col-xs-12">
+      <div class="device browser ">
+        <div class="screen">
+          <!-- <swiper class="mt-4 mt-md-0" [index]="currentSlide" (indexChange)="onIndexChange($event)"> -->
+            <div class="swiper-slide"  *ngIf="show">
+              <!-- <img [src]="'assets/img/1.png'" class="img-fluid animated fadeIn" alt=""/> -->
+              <div class="row">
+                <div class="col-md-8" style="display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 70%;">
+                  <!-- <div class="box1"> -->
+                    <img src="assets/img/ss.png" class="img-fluid">
+                  <!-- </div> -->
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide"  *ngIf="show1">
+              <!-- <img [src]="'assets/img/1.png'" class="img-fluid animated fadeIn" alt=""/> -->
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="box1">
+                    <i class="fa fa-times-circle-o fa-2x icon" (click)="close1()" aria-hidden="true"></i>
+                    <h2 class="text-center">Contextualized Training</h2>
+                    <p>Our intellectual trainers provide learning which links theoretical constructs to practical, real-world
+                       context .Enriched Online content in the form of video is embedded within the application providing end
+                        to end navigation guide to end users which itself reduces the time and effort on User Manual and in
+                         Personal Training.</p>
+                         <p>It helps our clients to prepare their employees much quicker than the traditional “crawl…toddle…walk…run”
+                            approach.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide"  *ngIf="show2">
+              <!-- <img
+                [src]="'assets/img/2.png'"
+                class="img-fluid animated fadeIn"
+                alt=""/> -->
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="box1">
+                      <i class="fa fa-times-circle-o fa-2x icon" (click)="close2()" aria-hidden="true"></i>
+                      <h2 class="text-center">Capacity Management</h2>
+                      <p>An efficient Development centre ensuring hassle free training and Services hence maximizes business potential
+                         activities and production output—at all times, under all conditions. </p>
+                      <p>At Emicon, we ensure that business maximizes its potential activities and production output—at all times,
+                         under all conditions.</p>
+                         <p>We manage demand according to business priorities, so that our clients can make sure that certain
+                            critical processes always have the capacity to run effectively. We, with good capacity management,
+                             also provide businesses with the ability to make more informed decisions.  Enough infrastructures
+                              available off site make us capable of executing businesses with ease.</p>
+                        <ul>
+                          <li>Analysing and optimizing resource utilization.</li>
+                          <li>A model of infrastructure performance to understand future resource needs</li>
+                          <li>Sufficient resources to make sure service levels are met.</li>
+                          <li>An annual infrastructure growth plan with input from clients.</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="swiper-slide"  *ngIf="show3">
+              <!-- <img
+                [src]="'assets/img/3.png'"
+                class="img-fluid animated fadeIn"
+                alt=""/> -->
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="box1">
+                      <i class="fa fa-times-circle-o fa-2x icon" (click)="close3()" aria-hidden="true"></i>
+                      <h2 class="text-center">Upgrades/Migration</h2>
+                      <p>Our experts help you in upgrading the application for efficient, reliable and secure data Management.</p>
+                      <p>They not only serve as your best guides in planning and implementing a new System but also help you in
+                         assessing and optimizing data transfer which gives you a smooth transaction from your legacy system in
+                          migrating your current application configurations to a new system.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="swiper-slide"  *ngIf="show4">
+              <!-- <img
+                [src]="'assets/img/4.png'"
+                class="img-fluid animated fadeIn" height="100%"
+                alt=""/> -->
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="box1">
+                      <i class="fa fa-times-circle-o fa-2x icon" (click)="close4()" aria-hidden="true"></i>
+                      <h2 class="text-center">Testing</h2>
+                      <p>We, at Emicon verify and validate the Business Processes which are executed and the Product being delivered
+                         is brought down to minimum errors meeting all the client requirements hence satisfying the user expectation
+                         by handling all the possible business scenarios.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          <!-- </swiper> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div style="text-align: center; ">
+  <button type="button" class="btn btn-outline-custom" >View More</button></div>
+  </div> -->
+  </div>
+</div>

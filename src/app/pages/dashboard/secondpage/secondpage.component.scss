@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Quicksand&display=swap');
+
+.subheading{
+  color: grey;
+  font-size: 15px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  font-family: 'Quicksand', sans-serif;
+}
+.nm{
+  margin-top: 180px;
+}
+.heading{
+  letter-spacing: 0.001em;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+}
+.cont{
+  color: gray;
+  font-weight: 600;
+  font-size: 0.8rem;
+  font-family: 'Quicksand', sans-serif;
+}
+.btn{
+  background-color: transparent;
+  color: #05487F;
+  border: 1px solid #05487F;
+  transition: all 1s;
+  font-family: 'Quicksand', sans-serif;
+}
+.btn:hover{
+  background-color: #05487F;
+  color: white;
+}
+ul li{
+  color: grey;
+  list-style: none;
+  font-size: 13px;
+  font-weight: 600;
+  padding-top: 5px;
+  font-family: 'Quicksand', sans-serif;
+}
+ul li i{
+  color: #9B870C;
+}
+.iam{
+  margin-left:110px;
+   margin-top: 5px;
+}
+.kk{
+  margin-left: -200px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .kk{
+    margin-left: -100px;
+  }
+  .iam{
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  .btn{
+    margin-bottom: 20px;
+  }
+ }
+ @media only screen and (max-width: 768px) {
+   .nm{
+     margin-top: -5px;
+   }
+  .kk{
+    margin-left: 0px;
+  }
+  ul li{
+    margin-left: -5px;
+  }
+  .ac{
+    padding: 20px;
+  }
+ }
+ .animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeIn {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+}
+@keyframes fadeIn {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+}
+.fadeIn {
+ -webkit-animation-name: fadeIn;
+ animation-name: fadeIn;
+}
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  // transition: .25s ease;
+  transition: all 100ms;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Read More';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Read Less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .8em;
+  color: #05487F;
+  font-size: 1.1em;
+  line-height: 2;
+  transition: all 1s;
+  border: 1px solid #05487F;
+  margin-top: -130px;
+}
+.read-more-trigger:hover {
+  background-color: #05487F;
+  color: white;
+}
+
+
+

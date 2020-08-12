@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+.part1 {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background: url(/assets/mainsol.jpg) top no-repeat;
+  margin-top: 10vh;
+  
+}
+.col {
+  position: absolute;
+  top: 23.5vh;
+  height: 7rem;
+  width: 50vw;
+  background: rgba($color: #06477f, $alpha: 0.2);
+}
+.txt {
+  position: absolute;
+  top: 24vh;
+  left: 12vw;
+  z-index: 2;
+  color: #06477f;
+  font-family: 'Sen', sans-serif;
+  h1 {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 5rem;
+  }
+}
+.carousel-item {
+  height: 10vh;
+  min-height: 420px;
+  background:scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.box1{
+  margin-top: 8vh;
+}
+.box1 h3{
+  font-weight: 600;
+  color: #054780;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.box1 p{
+  font-weight: 500;
+  color: grey;
+  text-align: center;
+}
+.box2{
+  background-color: #054780;
+   padding:50px;
+    color:white;
+   margin-top:50px;
+}
+.box2 h3{
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+.box2 p{
+  margin-top: 40px;
+  text-align: center;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+
+
+.subheading{
+  color: grey;
+  font-size: 15px;
+  font-weight: 700;
+}
+.heading{
+  letter-spacing: 0.001em;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.cont{
+  color: gray;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.btn{
+
+  background-color: transparent;
+  color: #05487F;
+  border: 1px solid #05487F;
+  transition: all 1s;
+}
+.btn:hover{
+  background-color: #05487F;
+  color: white;
+}
+ul li{
+  color: grey;
+  list-style: none;
+  padding-top: 5px;
+}
+ul li i{
+  color: #9B870C;
+}
+.iam{
+  margin-left:110px;
+   margin-top: 5px;
+}
+.kk{
+  margin-left: -200px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .kk{
+    margin-left: -100px;
+  }
+  .iam{
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  .btn{
+    margin-bottom: 20px;
+  }
+ }
+ @media only screen and (max-width: 768px) {
+  .kk{
+    margin-left: 0px;
+  }
+  ul li{
+    margin-left: -20px;
+  }
+  .col {
+    position: absolute;
+    top: 20.7vh;
+    height: 12vh;
+    width: 70vw;
+    background: rgba($color: #06477f, $alpha: 0.4);
+  }
+  .txt {
+    position: absolute;
+    top: 20vh;
+    left: 15vw;
+    z-index: 2;
+    color: #06477f;
+    font-family: 'Sen', sans-serif;
+    h1 {
+      font-size: 5rem;
+    }
+    h2 {
+      font-size: 3rem;
+    }
+  }
+ }
+
+
+
+ .box4 .headm{
+   text-align: center;
+   font-size: 30px;
+   font-weight: 700;
+   margin-top: 60px;
+   color: #054780;
+ }
+ .box4 .subheadm{
+   margin-top: 20px;
+   text-align: center;
+   font-weight: 500;
+   color: grey;
+   width: 60%;
+   margin-left: 20%;
+ }
+.co{
+  color: grey;
+  font-weight: 500;
+}
+li{
+  color: grey;
+  font-weight: 600;
+}

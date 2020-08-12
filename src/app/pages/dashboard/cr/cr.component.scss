@@ -1,0 +1,241 @@
+// body {
+// 	align-items: center;
+// 	background: #E3E3E3;
+// 	display: flex;
+// 	height: 100vh;
+// 	justify-content: center;
+// }
+// .head{
+//   text-align: center;
+//   font-weight: 500;
+// }
+@import url('https://fonts.googleapis.com/css?family=Poppins|Quicksand&display=swap');
+.box {
+  position: relative;
+  .person {
+    position: absolute;
+    top: 10vh;
+    right: 6vw;
+    opacity: 0.5;
+    transform: scale(0.8);
+  }
+}
+.aq{
+  color: black; border-bottom: 2px solid orange; cursor: pointer;margin-top: 20px;
+}
+.bq{
+  color: black; border-bottom: 2px solid orange; cursor: pointer; padding: 20px;
+}
+.cq{
+  color: black; border-bottom: 2px solid orange; cursor: pointer; padding: 20px;
+}
+.mt{
+  // padding-top: 50px;
+  margin-top: 0;
+  font-weight: 600;
+  color: black;
+  font-size: 2rem;
+  padding-bottom: 50px;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+.imgicon {
+  width: 47%;
+  height: auto;
+  filter: grayscale(1);
+}
+.imgicon1 {
+  width: 70%;
+  height: auto;
+  filter: grayscale(1);
+}
+.imgicon4 {
+  width: 80%;
+  height: auto;
+  filter: grayscale(1);
+}
+.imgicon3 {
+  width: 60%;
+  height: auto;
+  filter: grayscale(1);
+}
+.imgicon2 {
+  // margin-top: -23px;
+  width: 70%;
+  height: auto;
+  filter: grayscale(1);
+  margin-bottom: -23px;
+}
+.line {
+  border-bottom: 3px solid orange;
+  border-radius: 10px;
+  width: 90px;
+  // margin-top: -15px;
+}
+.bh{
+  color: orange;
+  font-size: 3rem;
+  font-family: 'Quicksand', sans-serif;
+}
+.col-md-12{
+  padding-top:30px;
+  padding-bottom: 0;
+  // padding-bottom: 100px;
+  // min-height: 80vh;
+  height:max-content;
+  transform: scale(0.9);
+}
+
+hr.h{
+  border-top: 1px solid white;
+}
+h4{
+  text-align: center;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.vl {
+  border-right: 2px solid orange;
+  height: auto;
+  border-bottom: 2px solid orange;
+  cursor: pointer;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.vlad {
+  margin-top: 100px;
+  border-right: 2px solid orange;
+  height: auto;
+  cursor: pointer;
+  padding: 20px;
+}
+.vll{
+  border-right: 2px solid orange;
+  cursor: pointer;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.vll i{
+  margin-top: 20px;
+}
+.vl h4{
+  margin-bottom: 20px;
+}
+.style_prevu_kit
+{
+    display:inline-block;
+    border:0;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+
+}
+.style_prevu_kit:hover
+{
+    // box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+    .imgicon {
+      // width: 47%;
+      // height: auto;
+      filter: grayscale(0);
+    }
+    .imgicon1 {
+      // width: 70%;
+      // height: auto;
+      filter: grayscale(0);
+    }
+    .imgicon4 {
+      // width: 80%;
+      // height: auto;
+      filter: grayscale(0);
+    }
+    .imgicon3 {
+      // width: 60%;
+      // height: auto;
+      filter: grayscale(0);
+    }
+    .imgicon2 {
+      // width: 70%;
+      // height: auto;
+      filter: grayscale(0);
+      margin-bottom: -23px;
+    }
+}
+@media screen and (min-width:1365px) and (max-width:1440px) {
+  .col-md-12{
+    transform: scale(0.7);
+    // background: yellow;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .box {
+    position: relative;
+    .person {display: none;
+    }
+  }
+  .aq{
+    display: none;
+  }
+  .bq{
+    display: none;
+  }
+  .cq{
+    display: none;
+  }
+  .vl {
+    border-right: 0px solid white;
+    height: auto;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    padding: 20px;
+  }
+  .vll{
+    border-right: 0px solid white;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    padding: 20px;
+  }
+  .vlad {
+    margin-top: 100px;
+    border-right: 0px solid white;
+    height: auto;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    padding: 20px;
+  }
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeIn {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+}
+@keyframes fadeIn {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+}
+.fadeIn {
+ -webkit-animation-name: fadeIn;
+ animation-name: fadeIn;
+}

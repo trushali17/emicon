@@ -1,0 +1,57 @@
+<nav class="navigationWrapper" [class.navbar-inverse]="color" [class.gogo]="toto" #main>
+  <div class="logoWrapper" (click)="fun()" style="cursor: pointer;">
+    <img src="/assets/logo.png" alt="" style="transform: scale(0.7);" #logo >
+  </div>
+  <ul class="navigation" #ro>
+    <li class="parent"><a class="link" #home routerLink="/">Home</a></li>
+    <li class="parent"><a class="link" routerLink="/about" routerLinkActive="active">About</a></li>
+    <li class="parent"><a class="link" routerLink="/solutions" routerLinkActive="active">Solution</a></li>
+    <li class="parent" id="clients">
+      <a class="link" href="#"><i class="fa fa-minus"></i> Capabilities </a>
+      <ul class="subnavigation">
+        <li><a class="link" routerLink="/oracle-services" routerLinkActive="active">ORACLE SERVICES</a></li>
+        <li><a class="link" routerLink="/analytics-and-data-visualization" routerLinkActive="active">Data ANALYSIS</a></li>
+        <li><a class="link" routerLink="/digital-marketing" routerLinkActive="active">DIGITAL MARKETING</a></li>
+        <!-- <li><a class="link" routerLink="">TRAININGS</a></li> -->
+        <br>
+        <li><a class="link" routerLink="/animation-services" routerLinkActive="active">ANIMATIONS</a></li>
+        <li><a class="link" routerLink="/app-development" routerLinkActive="active">MOBILE APPLICATIONS</a></li>
+        <li><a class="link" routerLink="/web-development" routerLinkActive="active">WEB APPLICATIONS</a></li>
+      </ul>
+    </li>
+    <li class="parent"><a class="link" routerLink="/career" routerLinkActive="active">Career</a></li>
+    <li class="parent"><a class="link" routerLink="/contact" routerLinkActive="active">Contact</a></li>
+  </ul>
+  <div id="burger" (click)="go()" #bur>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+</nav>
+<div class="mobilenav" #mnav>
+  <ul>
+    <li style="padding-top: 8vh;" #li class="rent"><a routerLink='/'> HOME </a></li>
+    <hr style="border-bottom: 1px solid gray;margin-left: -5vw; width: 70vw;">
+    <li class="rent"><a routerLink='/about' routerLinkActive="active"> ABOUT </a></li>
+    <hr style="border-bottom: 1px solid gray;margin-left: -5vw; width: 70vw;">
+    <li class="rent"><a routerLink='/solutions' routerLinkActive="active"> SOLUTION </a></li>
+    <hr style="border-bottom: 1px solid gray;margin-left: -5vw; width: 70vw;">
+    <li #sub class="wos" class=".crent" (click)="open()"> <a id="meta"> CAPABILITIES </a> <i class="fa fa-chevron-down" style="margin-left: 30vw;color: orange;" #icon></i>
+      <ul class="dropdown">
+        <hr style="border-bottom: 1px solid gray;margin-left: -5vw; width: 70vw;">
+        <li><a class="link" routerLink="/oracle-services" routerLinkActive="active">&nbsp;<b>—</b>&nbsp;&nbsp;&nbsp;Oracle Services</a></li>
+        <li><a class="link" routerLink="/analytics-and-data-visualization" routerLinkActive="active">&nbsp;<b>—</b>&nbsp;&nbsp;&nbsp;Data Analysis</a></li>
+        <li><a class="link" routerLink="/digital-marketing" routerLinkActive="active">&nbsp;<b>—</b>&nbsp;&nbsp;&nbsp;Digital Marketing</a></li>
+        <li><a class="link" routerLink="">&nbsp;<b>—</b>&nbsp;&nbsp;&nbsp;Training</a></li>
+        <li><a class="link" routerLink="/animation-services" routerLinkActive="active">&nbsp;<b>—</b>&nbsp;&nbsp;&nbsp;Animations</a></li>
+        <li><a class="link" routerLink="/app-development" routerLinkActive="active">&nbsp;<b>—</b>&nbsp;&nbsp;&nbsp;Mobile Apps</a></li>
+        <li><a class="link" routerLink="/web-development" routerLinkActive="active">&nbsp;<b>—</b>&nbsp;&nbsp;&nbsp;Web Apps</a></li>
+      </ul>
+    </li>
+    <hr style="border-bottom: 1px solid gray;margin-left: -5vw; width: 70vw;">
+    <li class="parent"><a class="link" routerLink="/career" routerLinkActive="active">CAREER</a></li>
+    <hr style="border-bottom: 1px solid gray;margin-left: -5vw; width: 70vw;">
+    <li class="rent"><a routerLink='/contact' routerLinkActive="active"> CONTACT </a></li>
+  </ul>
+</div>

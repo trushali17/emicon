@@ -1,0 +1,133 @@
+// .heading{
+//   text-align: center;
+//   font-weight: 700;
+// }
+// .subheading{
+//   text-align: center;
+//   color: grey;
+// }
+// .responsive {
+//   width: 100%;
+//   height: auto;
+// }
+// .title{
+//   font-weight: 700;
+//   font-size: 20px;
+// }
+.box i{
+  color: #F9911D;
+}
+.heading{
+  font-weight: 700;
+}
+.mainsubhead{
+  font-size: 15px;
+  color: grey;
+  text-align: center;
+}
+.mainhead{
+  text-align: center;
+  font-size: 30px;
+}
+.btn{
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 0px;
+  margin-left: 12px;
+  transition: all 1s;
+}
+.btn:hover{
+background-color: #05487F;
+color: white;
+border: 1px solid #05487F;
+}
+// .con{
+//   color: grey;
+//   font-weight: 400;
+// }
+// .btnn{
+//   border: 1px solid lightgrey;
+//   color: grey;
+//   border-radius: 0px;
+//   margin-left: 90px;
+// }
+
+// @media only screen and (max-width: 1718px) {
+// .col-6{
+//   margin-top: 5px;
+// }
+//   .title{
+//   font-size: 15px;
+//   font-weight: 500;
+// }
+// }
+
+// @media only screen and (max-width: 1998px) {
+//   .col-6{
+//     margin-top: 5px;
+//   }
+//     .title{
+//     font-size: 15px;
+//     font-weight: 500;
+//   }
+// }
+// @media only screen and (max-width: 1651px) {
+//   .col-6{
+//     margin-top: 5px;
+//   }
+//     .title{
+//     font-size: 13px;
+//     font-weight: 400;
+//   }
+// }
+// @media only screen and (max-width: 1480px) {
+//   .col-6{
+//     margin-top: 5px;
+//   }
+//     .title{
+//     font-size: 11px;
+//     font-weight: 400;
+//   }
+// }
+// @media only screen and (max-width: 1284px) {
+//   .col-6{
+//     margin-top: -5px;
+//   }
+//     .title{
+//     font-size: 10px;
+//     font-weight: 400;
+//   }
+// }
+// @media only screen and (max-width: 1024px) {
+//     .title{
+//     font-size: 10px;
+//     font-weight: 400;
+//   }
+// }
+@media only screen and (max-width: 768px) {
+  .btn{
+    margin-bottom: 40px;
+    margin-left: 35px;
+  }
+  .box{
+    margin-left: 20px;
+  }
+  }
+  .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+  }
+  @keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+  }
+  .fadeIn {
+   -webkit-animation-name: fadeIn;
+   animation-name: fadeIn;
+  }

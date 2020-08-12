@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Quicksand&display=swap');
+.heading{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+  color: orange;
+}
+.box{
+  background-color: white;
+  padding: 50px;
+}
+.line {
+  border-bottom: 3px solid orange;
+  border-radius: 10px;
+  width: 120px;
+  // margin-top: -15px;
+}
+.btn{
+  border: 1px solid orange;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 12px;
+  font-weight: 400;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+}
+.btn i{
+    color: orange;
+    float: left;
+    margin-top: 5px;
+  }
+.btn:hover{
+  box-shadow: 1px 5px 10px rgba($color: #000000, $alpha: 0.2);
+}
+.btn:focus{
+  background-color: #05487F;
+  color: white;
+  border: 1px solid #05487F;
+  outline: none;
+  i{
+    color: white;
+    float: left;
+    margin-top: 5px;
+  }
+}
+.boxx{
+  background-color: rgba($color: lightgray, $alpha: 0.4);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 4px 15px rgba($color: #000000, $alpha: 0.5);
+}
+.boxxmobile{
+  background-color: rgba($color: lightgray, $alpha: 0.4);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 4px 15px rgba($color: #000000, $alpha: 0.5);
+  display: none;
+}
+.ak .btn{
+  border: 1px solid grey;
+  color: grey;
+  border-radius: 0px;
+  margin-top: 20px;
+}
+.ak .btn:hover{
+  background-color: #05487F;
+  color: white;
+}
+.icon{
+  position: absolute;
+   top: -37px;
+   right: -32px;
+   color: #05487F;
+   cursor: pointer;
+}
+@media only screen and (max-width: 768px){
+  .box{
+    padding: 5px;
+  }
+.ak{
+  margin-top: 100px;
+}
+.boxxmobile{
+  background-color: rgba($color: lightgray, $alpha: 0.4);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 4px 15px rgba($color: #000000, $alpha: 0.5);
+  display: block;
+}
+.boxx{
+  display: none;
+}
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeIn {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+}
+@keyframes fadeIn {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+}
+.fadeIn {
+ -webkit-animation-name: fadeIn;
+ animation-name: fadeIn;
+}

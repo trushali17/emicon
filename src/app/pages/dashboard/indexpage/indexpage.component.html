@@ -1,0 +1,75 @@
+<section id="index" #target>
+  <app-nav #master></app-nav>
+  <div id="sam"></div>
+  <div id="slideshow">
+    <!-- <img src="/assets/sl2.jpg" alt="slide1">
+        <img src="/assets/sl1.jpg" alt="slide2"> -->
+    <div class="bg">
+      <div class="content">
+        <h1>
+          Realize your potental and <br />
+          transform your business
+        </h1>
+        <hr />
+        <h4>
+          Reliable solution that help you scale and deliver against key
+          objectives <br />
+          while keeping system safe and secure
+        </h4>
+        <button class="bttn" routerLink="/contact">Contact Us</button>
+      </div>
+    </div>
+    <div class="bg">
+      <div class="content">
+        <h1>
+          Realize your potental and <br />
+          transform your business
+        </h1>
+        <hr />
+        <h4>
+          Reliable solution that help you scale and deliver against key
+          objectives <br />
+          while keeping system safe and secure
+        </h4>
+        <button class="bttn" routerLink="/contact">Contact Us</button>
+      </div>
+    </div>
+    <div class="bg">
+      <div class="content">
+        <h1>
+          Realize your potental and <br />
+          transform your business
+        </h1>
+        <hr />
+        <h4>
+          Reliable solution that help you scale and deliver against key
+          objectives <br />
+          while keeping system safe and secure
+        </h4>
+        <button class="bttn" routerLink="/contact">Contact Us</button>
+      </div>
+    </div>
+  </div> 
+ 
+</section>
+<br><br>
+<hr style="border-bottom: 1px solid#06477f; opacity: 0.5;">
+<app-secondpage></app-secondpage>
+<app-cr></app-cr>
+<!-- <app-ourfeatures></app-ourfeatures> -->
+<app-servicess></app-servicess>
+<app-solutions></app-solutions>
+<app-ourclients></app-ourclients>
+<app-footer></app-footer>
+<button
+  (click)="scrollToElement(target)"
+  class="btn"
+  style="position: fixed;top: 90vh; right: 2vw; z-index: 9999;"
+  #btn
+>
+  <i
+    class="fa fa-chevron-up text-center"
+    aria-hidden="true"
+    style="color: white;"
+  ></i>
+</button>

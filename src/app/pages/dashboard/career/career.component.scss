@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+.as{
+  margin-top: 200px;
+}
+.tag{
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-top: 100px;
+  color: #06477F;
+  // font-family: 'Poppins', sans-serif;
+}
+.tx{
+  margin-left: 7px;
+  border-left: 4px solid #06477F;
+  margin-top: 40px;
+  font-weight: 600;
+  color: #06477F;
+  font-family: 'Poppins', sans-serif;
+}
+.btn{
+  background-color: #06477F;
+  color: white;
+  margin-top: 50px;
+  margin-left: 25px;
+  border-radius: 0px;
+  padding: 8px;
+}
+.tt{
+  letter-spacing: 5px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 270px;
+  margin-bottom: 30px;
+}
+.te{
+  font-size: 1.6rem;
+  font-weight: 200;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.kl{
+  margin-top: 100px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: center;
+  letter-spacing: 5px;
+}
+.ju{
+  text-align: center;
+  font-size: 4.5rem;
+}
+.bba{
+  background-color: rgba($color: lightgrey, $alpha: 0.4);
+  text-align: center;
+  font-weight: 700;
+  padding: 10px;
+  margin-top: 50px;
+}
+.oq{
+  color: grey;
+  font-family: 'Merriweather', serif;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin: 20px;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .as{
+    margin-top: 35px;
+  }
+}
+.ho{
+  padding: 20px;
+  color: grey;
+  font-weight: 500;
+  font-family: 'Merriweather', serif;
+  cursor: pointer;
+  border-bottom: 1px solid grey;
+}
+.ho:hover{
+  background-color: rgba($color: grey, $alpha: 0.1);
+}
+@media screen and (max-width: 1366px) {
+  .tag{
+    margin-top: 20px;
+  }
+  }

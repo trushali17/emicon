@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Sen&display=swap");
+.part1 {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background: url(/assets/mainsol.jpg) top no-repeat;
+  margin-top: 10vh;
+  
+}
+.col {
+  position: absolute;
+  top: 23.5vh;
+  height: 7rem;
+  width: 50vw;
+  background: rgba($color: #06477f, $alpha: 0.2);
+}
+.txt {
+  position: absolute;
+  top: 24vh;
+  left: 12vw;
+  z-index: 2;
+  color: #06477f;
+  font-family: 'Sen', sans-serif;
+  h1 {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 5rem;
+  }
+}
+.part2 {
+  font-family: "Righteous", cursive;
+  position: relative;
+  margin-top: 16vh;
+  width: 80%;
+  margin-left: 13%;
+  height: max-content;
+  display: flex;
+  .p21 {
+    width: 50%;
+    h1 {
+      color: #06477f;
+      font-size: 3rem;
+    }
+    p {
+      padding-right: 15px;
+      padding-top: 6vh;
+      font-family: "Quicksand", sans-serif;
+      margin-bottom: 3vh;
+    }
+    ul li {
+      font-family: "Quicksand", sans-serif;
+      font-weight: 700;
+      margin-left: -1vw;
+    }
+  }
+  .p22 {
+    width: 50%;
+    img {
+      margin-top: -7vh;
+    }
+  }
+}
+.part3 {
+  font-family: "Righteous", cursive;
+  position: relative;
+  margin-top: 16vh;
+  width: 80%;
+  margin-left: 13%;
+  height: max-content;
+  display: flex;
+  flex-direction: row-reverse;
+  .p21 {
+    width: 50%;
+    h1 {
+      color: #06477f;
+      font-size: 3rem;
+    }
+    p {
+      padding-right: 15px;
+      padding-top: 6vh;
+      font-family: "Quicksand", sans-serif;
+      margin-bottom: 3vh;
+    }
+    ul li {
+      font-family: "Quicksand", sans-serif;
+      font-weight: 700;
+      margin-left: -1vw;
+    }
+  }
+  .p22 {
+    width: 50%;
+    img {
+      margin-top: -7vh;
+    }
+  }
+}
+.part4 {
+  font-family: "Righteous", cursive;
+  position: relative;
+  margin-top: 16vh;
+  width: 80%;
+  margin-left: 13%;
+  height: max-content;
+  display: flex;
+  .p21 {
+    width: 50%;
+    h1 {
+      color: #06477f;
+      font-size: 3rem;
+    }
+    p {
+      padding-right: 15px;
+      padding-top: 6vh;
+      font-family: "Quicksand", sans-serif;
+      margin-bottom: 3vh;
+    }
+    ul li {
+      font-family: "Quicksand", sans-serif;
+      font-weight: 700;
+      margin-left: -1vw;
+    }
+  }
+  .p22 {
+    width: 50%;
+    img {
+      margin-top: -7vh;
+    }
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+
+    .part3 {
+      .p22 {
+        width: 50%;
+        img {
+          margin-top: 4vh;
+          margin-left: 0vw;
+          width: 75%;
+          height: auto;
+        }
+      }
+    }
+    .part4 {
+      .p22 {
+        width: 50%;
+        img {
+          margin-top: 4vh;
+          margin-left: 5vw;
+          width: 82%;
+          height: auto;
+        }
+      }
+    }
+}
+@media screen and (min-width: 442px) and (max-width: 1024px) {
+
+    .col {
+      position: absolute;
+      top: 23.5vh;
+      height: 10vh;
+      width: 32.6vw;
+      background: rgba($color: #06477f, $alpha: 0.4);
+    }
+    .txt {
+      position: absolute;
+      top: 24vh;
+      left: 12vw;
+      z-index: 2;
+      color: #06477f;
+      font-family: 'Sen', sans-serif;
+      h1 {
+        font-size: 4rem;
+      }
+      h2 {
+        margin-top: 1vh;
+        font-size: 2rem;
+      }
+    }
+    .part2 {
+      font-family: "Righteous", cursive;
+      position: relative;
+      margin-top: 16vh;
+      width: 80%;
+      margin-left: 13%;
+      height: max-content;
+      display: flex;
+      .p21 {
+        width: 50%;
+        h1 {
+          color: #06477f;
+          font-size: 3rem;
+        }
+        p {
+          padding-right: 15px;
+          font-size: 0.8rem;
+          padding-top: 6vh;
+          font-family: "Quicksand", sans-serif;
+          margin-bottom: 3vh;
+        }
+        ul li {
+          font-family: "Quicksand", sans-serif;
+          font-weight: 700;
+          margin-left: -1vw;
+          font-size: 0.8rem;
+        }
+      }
+      .p22 {
+        width: 50%;
+        img {
+          margin-top: 0vh;
+        }
+      }
+    }
+    .part3 {
+      .p21 {
+        width: 50%;
+        h1 {
+          color: #06477f;
+          font-size: 3rem;
+        }
+        p {
+          padding-right: 15px;
+          padding-top: 6vh;
+          font-family: "Quicksand", sans-serif;
+          margin-bottom: 3vh;
+          font-size: 0.8rem;
+        }
+        ul li {
+          font-family: "Quicksand", sans-serif;
+          font-weight: 700;
+          margin-left: -1vw;
+          font-size: 0.8rem;
+        }
+      }
+      .p22 {
+        width: 50%;
+        img {
+          margin-top: 9vh;
+          margin-left: 3vw;
+          width: 72%;
+          height: auto;
+        }
+      }
+    }
+    .part4 {
+      .p21 {
+        p {
+          padding-right: 15px;
+          padding-top: 6vh;
+          font-family: "Quicksand", sans-serif;
+          margin-bottom: 3vh;
+          font-size: 0.8rem;
+        }
+        ul li {
+          font-family: "Quicksand", sans-serif;
+          font-weight: 700;
+          margin-left: -1vw;
+          font-size: 0.8rem;
+        }
+      }
+      .p22 {
+        width: 50%;
+        img {
+          margin-top: 4vh;
+          margin-left: 5vw;
+          width: 82%;
+          height: auto;
+        }
+      }
+    }
+
+}
+@media screen and (max-width: 442px) {
+
+    .col {
+      position: absolute;
+      top: 23.5vh;
+      height: 10vh;
+      width: 90vw;
+      background: rgba($color: #06477f, $alpha: 0.4);
+    }
+    .txt {
+      position: absolute;
+      top: 24vh;
+      left: 12vw;
+      z-index: 2;
+      color: #06477f;
+      font-family: 'Sen', sans-serif;
+      h1 {
+        font-size: 4rem;
+      }
+      h2 {
+        margin-top: 1vh;
+        font-size: 2rem;
+      }
+    }
+    .part2 {
+      font-family: "Righteous", cursive;
+      position: relative;
+      margin-top: 16vh;
+      width: 80%;
+      margin-left: 13%;
+      height: max-content;
+      display: flex;
+      flex-direction: column-reverse;
+      .p21 {
+        width: 100%;
+        h1 {
+          color: #06477f;
+          font-size: 2rem;
+          text-align: center;
+        }
+        p {
+          padding-right: 15px;
+          font-size: 0.8rem;
+          padding-top: 6vh;
+          font-family: "Quicksand", sans-serif;
+          margin-bottom: 3vh;
+        }
+        ul li {
+          font-family: "Quicksand", sans-serif;
+          font-weight: 700;
+          margin-left: -1vw;
+          font-size: 0.8rem;
+        }
+      }
+      .p22 {
+        width: 100%;
+        img {
+          margin-top: 0vh;
+        }
+      }
+    }
+    .part3 {
+      flex-direction: column-reverse;
+      .p21 {
+        width: 100%;
+        h1 {
+          color: #06477f;
+          font-size: 2rem;
+          text-align: center;
+        }
+        p {
+          padding-right: 15px;
+          padding-top: 6vh;
+          font-family: "Quicksand", sans-serif;
+          margin-bottom: 3vh;
+          font-size: 0.8rem;
+        }
+        ul li {
+          font-family: "Quicksand", sans-serif;
+          font-weight: 700;
+          margin-left: -1vw;
+          font-size: 0.8rem;
+        }
+      }
+      .p22 {
+        width: 100%;
+        img {
+          margin-top: 0vh;
+          margin-left: 0;
+          align-self: center;
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+    .part4 {
+      flex-direction: column-reverse;
+      .p21 {
+        width: 100%;
+        h1 {
+          text-align: center;
+          font-size: 2rem;
+        }
+        p {
+          padding-right: 15px;
+          padding-top: 6vh;
+          font-family: "Quicksand", sans-serif;
+          margin-bottom: 3vh;
+          font-size: 0.8rem;
+        }
+        ul li {
+          font-family: "Quicksand", sans-serif;
+          font-weight: 700;
+          margin-left: -1vw;
+          font-size: 0.8rem;
+        }
+      }
+      .p22 {
+        width: 100%;
+        img {
+          margin: 0;
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+}
